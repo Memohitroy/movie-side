@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Movie Website</h1>
+            <div id="how-to-download" class="video-thumbnail orange-box">
+                <img src="path_to_thumbnail_image.jpg" alt="How to Download Movie" id="how-to-download-img">
+            </div>
+            <input type="text" id="search" placeholder="Search movies...">
+        </header>
+        <main>
+            <div id="movies-container"></div>
+            <p id="no-match" style="display: none;">
+                Oops, no matching movie name. Please contact admin on , If you do not get the movie, then you send the name of the movie to Instagram or WhatsApp, you will upload your movie in 1 hour.
+                <a href="https://wa.me/8006696819">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="social-icon">
+                </a> 
+                & 
+                <a href="https://www.instagram.com/mohitroy2004">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+                </a>
+            </p>
+        </main>
+    </div>
+
+    <!-- Modal -->
+    <div id="movie-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- How to Download Modal -->
+    <div id="how-to-download-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="how-to-download-body">
+                <h2>How to Download Movie</h2>
+                <iframe src="download movie.mp4" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
